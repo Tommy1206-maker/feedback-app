@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const loadingDiv = document.getElementById('loading');
   
   // ★★★★★ ここに、あなたがメモしたGASのウェブアプリURLを貼り付けます ★★★★★
-  const GAS_WEB_APP_URL = 'https://script.google.com/a/macros/tsuchiura.ed.jp/s/AKfycbxUOoHY1M7-IQzS0yev5E68FsLsUkn9sloa8ss_1Xvl_eGTaK5F5tmzA4TP6FJB4l7Z/exec';
+  const GAS_WEB_APP_URL = 'https://script.google.com/a/macros/tsuchiura.ed.jp/s/AKfycbwemzOcUEJRxZjIG6b2BU_aJ97JEuEqzVe_dhZ5aTIku1B4cVae14VXBpVwnDT5H3E/exec';
 
   submitBtn.addEventListener('click', async () => {
     const text = userInput.value;
