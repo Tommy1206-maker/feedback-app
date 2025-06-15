@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ジェミニ先生のフィードバック</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>目標や振り返りを書いてみよう！</h1>
+    <textarea id="userInput" rows="8" placeholder="ここに目標や、がんばったことを書いてね。"></textarea>
+    <button id="submitBtn">ジェミニ先生にみてもらう</button>
+    <div id="loading" class="hidden">ジェミニ先生が考えてるよ...</div>
+    <div id="result"></div>
+  </div>
+  <!-- Geminiからの返事をきれいに表示するためのライブラリ -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <!-- 自分たちの作ったプログラム -->
+  <script src="script.js"></script>
+</body>
+</html>
